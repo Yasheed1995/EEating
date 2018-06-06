@@ -1,0 +1,15 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+<h1>EEating Home</h1>
+<p>Welcome to <em>EEating</em>.<br> <strong>Eat to live, not live to eat.</strong></p>
+
+   <p>The Database has the following recore counts:</p>
+   <ul>
+      <li><strong>Products:</strong> {{num_products}}</li>
+      <li><strong># of food instances:</strong> {{num_instances}}</li>
+      <li><strong># of sellers:</strong> {{num_sellers}}</li>
+   </ul>
+
+{% endblock %}
+

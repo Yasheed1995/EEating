@@ -7,7 +7,7 @@ Eat to live, not live to eat.
 ## Usage
 
 ```
-usage: bash run.sh
+usage: bash run.sh ${port}
 ```
 
 ### Prerequisites
